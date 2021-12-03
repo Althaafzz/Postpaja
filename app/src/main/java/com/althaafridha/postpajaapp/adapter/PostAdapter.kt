@@ -2,10 +2,17 @@ package com.althaafridha.resepibuapp.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.althaafridha.postpajaapp.R
 import com.althaafridha.postpajaapp.data.Post
 import com.althaafridha.postpajaapp.databinding.RowItemPostBinding
 import com.bumptech.glide.Glide
+import com.google.android.material.snackbar.Snackbar
+import android.app.Activity
+import android.content.Context
+
 
 class PostAdapter(private val listPost: ArrayList<Post>): RecyclerView.Adapter<PostAdapter.MyViewHolder>() {
     inner class MyViewHolder(val binding: RowItemPostBinding): RecyclerView.ViewHolder(binding.root)
@@ -26,6 +33,7 @@ class PostAdapter(private val listPost: ArrayList<Post>): RecyclerView.Adapter<P
                 Glide.with(imgProfile.context).load(profileImage).into(imgProfile)
                 Glide.with(ivPostImage.context).load(postImage).into(ivPostImage)
             }
+
         }
     }
 
