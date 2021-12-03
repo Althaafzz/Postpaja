@@ -68,7 +68,7 @@ object PostData {
             return list
         }
 
-    private val exploreImage = arrayOf(
+    val exploreImage = arrayOf(
         "https://media.istockphoto.com/photos/prize-wheel-picture-id175482570?b=1&k=20&m=175482570&s=170667a&w=0&h=cHDwnCHXxRE5jMtwX-k1Xq4KSrOTJyGIvt91hrOkZqA=",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTL71W2u3jfYvvp2MXCfvVwHoyM-cioxCZkA&usqp=CAU",
         "https://i.pinimg.com/736x/4e/86/ca/4e86caaada11d134b03b6b5bfea9e098.jpg",
