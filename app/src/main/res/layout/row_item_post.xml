@@ -70,17 +70,17 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-            <ImageButton
+            <ToggleButton
                 android:id="@+id/ib_like"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_favorite_24dp"
+                style="@style/toggleButton"
                 app:layout_constraintTop_toBottomOf="@+id/cv_post"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginTop="8dp"
                 android:layout_marginStart="12dp"
-                android:background="@android:color/transparent" />
+                android:background="@drawable/ic_toggle_bg" />
 
         <ImageButton
             android:id="@+id/ib_comment"
