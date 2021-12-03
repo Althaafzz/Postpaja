@@ -105,4 +105,14 @@ object PostData {
         "9.421",
         "3.839"
     )
+
+    private val hourNotif = arrayOf(
+        "12hr",
+        "8hr",
+        "8hr",
+        "7hr",
+        "4hr",
+        "2hr",
+        "1m"
+    )
 }
