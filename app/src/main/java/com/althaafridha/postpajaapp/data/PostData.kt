@@ -85,10 +85,24 @@ object PostData {
         "https://media.istockphoto.com/photos/freedom-chains-that-transform-into-birds-charge-concept-picture-id1322104312?b=1&k=20&m=1322104312&s=170667a&w=0&h=VQyPkFkMKmo0e4ixjhiOLjiRs_ZiyKR_4SAsagQQdkk=",
         "https://www.ilmubahasainggris.com/wp-content/uploads/2017/03/NGC.jpg"
     )
+    private val userLike = arrayOf(
+        "akunfake21",
+        "sandiiw",
+        "12papa31",
+        "jew34rd",
+        "akimilakuo",
+        "23akua",
+        "mddka2"
+    )
 
-    private val postUser = intArrayOf(
-        R.drawable.postpro,
-        R.drawable.postpro2
-
+    private val totalLike = arrayOf(
+        "432",
+        "9.123",
+        "12.102",
+        "1.010",
+        "320",
+        "54",
+        "9.421",
+        "3.839"
     )
 }

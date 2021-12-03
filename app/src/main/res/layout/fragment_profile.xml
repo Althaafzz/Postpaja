@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.ProfileFragment"
-    android:background="#F4F4F4">
+    tools:context=".ui.ProfileFragment">
 
     <TextView
         android:id="@+id/txt_name_user"
@@ -156,7 +155,9 @@
         android:layout_height="wrap_content"
         android:text="Edit Profile"
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
         app:layout_constraintTop_toBottomOf="@id/txt_bio_user"
         android:layout_marginStart="32dp"
         android:layout_marginTop="12dp"
@@ -194,15 +195,29 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintTop_toBottomOf="@id/post_tag"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:listitem="@layout/post_user"
-        android:orientation="horizontal"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal">
 
+        <ImageView
+            android:layout_width="204dp"
+            android:layout_height="200dp"
+            android:src="@drawable/postpro"
+            android:layout_marginEnd="2dp"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_width="204dp"
+            android:layout_height="200dp"
+            android:src="@drawable/postpro2"
+            android:layout_marginStart="2dp"
+            android:scaleType="centerCrop"/>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
