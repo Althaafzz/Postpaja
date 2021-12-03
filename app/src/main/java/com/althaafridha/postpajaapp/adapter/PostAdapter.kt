@@ -15,6 +15,9 @@ import android.content.Context
 
 
 class PostAdapter(private val listPost: ArrayList<Post>): RecyclerView.Adapter<PostAdapter.MyViewHolder>() {
+    var likedState: Boolean = false
+
+
     inner class MyViewHolder(val binding: RowItemPostBinding): RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = MyViewHolder(
@@ -28,12 +31,13 @@ class PostAdapter(private val listPost: ArrayList<Post>): RecyclerView.Adapter<P
                 tvProfileLocation.text = location
                 tvCaptionHeading.text = name
                 tvCaptionContent.text = caption
+                txtUserLike.text = likedUser
+                txtLikedOthers.text = likedOther
 
 
                 Glide.with(imgProfile.context).load(profileImage).into(imgProfile)
                 Glide.with(ivPostImage.context).load(postImage).into(ivPostImage)
             }
-
         }
     }
 

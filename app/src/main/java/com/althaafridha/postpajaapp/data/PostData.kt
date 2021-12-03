@@ -52,22 +52,6 @@ object PostData {
         "gabisa ngetik"
     )
 
-    val listPost: ArrayList<Post>
-        get() {
-            val list = arrayListOf<Post>()
-            for (position in postProfileName.indices) {
-                val post = Post(
-                    name = postProfileName[position],
-                    caption = postCaption[position],
-                    profileImage = profileImage[position],
-                    postImage = postImage[position],
-                    location = postLocate[position]
-                )
-                list.add(post)
-            }
-            return list
-        }
-
     val exploreImage = arrayOf(
         "https://media.istockphoto.com/photos/prize-wheel-picture-id175482570?b=1&k=20&m=175482570&s=170667a&w=0&h=cHDwnCHXxRE5jMtwX-k1Xq4KSrOTJyGIvt91hrOkZqA=",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTL71W2u3jfYvvp2MXCfvVwHoyM-cioxCZkA&usqp=CAU",
@@ -105,4 +89,22 @@ object PostData {
         "9.421",
         "3.839"
     )
+
+    val listPost: ArrayList<Post>
+        get() {
+            val list = arrayListOf<Post>()
+            for (position in postProfileName.indices) {
+                val post = Post(
+                    name = postProfileName[position],
+                    caption = postCaption[position],
+                    profileImage = profileImage[position],
+                    postImage = postImage[position],
+                    location = postLocate[position],
+                    likedUser = userLike[position],
+                    likedOther = totalLike[position],
+                )
+                list.add(post)
+            }
+            return list
+        }
 }
