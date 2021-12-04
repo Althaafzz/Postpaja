@@ -6,10 +6,15 @@
         <entry key="app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.24074074074074073" />
         <entry key="app/src/main/res/drawable/ic_toggle.xml" value="0.24074074074074073" />
         <entry key="app/src/main/res/drawable/ic_toggle_bg.xml" value="0.24074074074074073" />
+        <entry key="app/src/main/res/drawable/textlines.xml" value="0.30666666666666664" />
+        <entry key="app/src/main/res/layout/activity_post.xml" value="0.2703804347826087" />
+        <entry key="app/src/main/res/layout/activity_post_duactivity.xml" value="0.2703804347826087" />
         <entry key="app/src/main/res/layout/fragment_explore.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14361702127659576" />
-        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.2703804347826087" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.465592972181552" />
         <entry key="app/src/main/res/layout/row_item_explore.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/row_item_notif.xml" value="0.42650103519668736" />
         <entry key="app/src/main/res/layout/row_item_post.xml" value="0.335" />
       </map>
     </option>

@@ -117,4 +117,18 @@ object PostData {
             }
             return list
         }
+
+    val listNotif: ArrayList<Notification>
+        get() {
+            val list = arrayListOf<Notification>()
+            for (position in postProfileName.indices) {
+                val notif = Notification(
+                    profileName = postProfileName[position],
+                    profileImage = profileImage[position],
+                    hour = hourNotif[position]
+                )
+                list.add(notif)
+            }
+            return list
+        }
 }
