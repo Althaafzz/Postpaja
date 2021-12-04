@@ -67,7 +67,18 @@ object PostData {
         "https://www.corvsport.com/wp-content/uploads/2018/02/C1-Corvette-Picture.jpg",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIySS0D_jSgSTjCJKVIC5rZUjYoBMM1POLA&usqp=CAU",
         "https://media.istockphoto.com/photos/freedom-chains-that-transform-into-birds-charge-concept-picture-id1322104312?b=1&k=20&m=1322104312&s=170667a&w=0&h=VQyPkFkMKmo0e4ixjhiOLjiRs_ZiyKR_4SAsagQQdkk=",
-        "https://www.ilmubahasainggris.com/wp-content/uploads/2017/03/NGC.jpg"
+        "https://www.ilmubahasainggris.com/wp-content/uploads/2017/03/NGC.jpg",
+        "https://englishforsma.com/wp-content/uploads/2016/08/fischer-2739115_640.jpg",
+        "https://media.macphun.com/img/uploads/customer/how-to/579/15349456005b7d69405aabf4.32904503.jpg?q=85&w=1340",
+        "https://ridestore.imgix.net/ct/category/category-header-picture.jpg?w=320&auto=format&q=50",
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/woman-hanging-photographs-in-art-gallery-royalty-free-image-1619024190.?crop=1.00xw:0.751xh;0,0.0671xh&resize=1200:*",
+        "https://lh3.googleusercontent.com/proxy/a3fGsmJHv8SxZY3y-SfO7pxlpwEY3vH5uWkBrxrFDMXx6KCNtWsrnADbKX6yQxNjQ239Dwdv1OTmy4kFESn3_iOVbZvlcg3vQwhxtkrIzyY_a8O7wEVYqDRhNslOmpopcOa5TJZjGgYWW1loYAPIo5b2jaapPvg8QAIAl9mtyH_5eDsjUrFaMEj0_jpgLopvXB_meth4cnAXD-owhC8",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuEaNqw6u_GDhF7MNkj-HyLXpiB5fx0Z81HA&usqp=CAU",
+        "https://www.universetoday.com/wp-content/uploads/2009/09/earth_moon_1280_10241.jpg",
+        "https://images.prismic.io/lapland-safaris/3825dc874262dbd301fba8cdd93b70851bcf0450_levi_summer_levi-summer-picture-by-visit-levi.jpg?auto=compress,format",
+        "https://static01.nyt.com/images/2020/03/18/business/18Techfix-illo-LN/18Techfix-illo-mobileMasterAt3x.jpg",
+        "https://images.pexels.com/photos/870711/pexels-photo-870711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "https://d3kqdc25i4tl0t.cloudfront.net/articles/content/143_533728_160122gmailpic_hero.jpg"
     )
     private val userLike = arrayOf(
         "akunfake21",
