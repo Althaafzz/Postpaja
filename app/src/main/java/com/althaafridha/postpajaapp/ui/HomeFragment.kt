@@ -13,6 +13,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.althaafridha.postpajaapp.R
+import com.althaafridha.postpajaapp.adapter.StatusAdapter
 import com.althaafridha.postpajaapp.data.PostData
 import com.althaafridha.postpajaapp.databinding.FragmentHomeBinding
 import com.althaafridha.resepibuapp.adapter.PostAdapter
@@ -34,6 +35,13 @@ class HomeFragment : Fragment() {
             layoutManager = LinearLayoutManager(activity)
             adapter = PostAdapter(PostData.listPost)
 
+        }
+        binding.rvStatus.apply {
+            setHasFixedSize(true)
+
+            val lManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+            layoutManager = lManager
+            adapter = StatusAdapter(PostData.listStatus)
         }
         return binding.root
     }

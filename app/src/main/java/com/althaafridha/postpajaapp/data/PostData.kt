@@ -142,4 +142,17 @@ object PostData {
             }
             return list
         }
+
+    val listStatus: ArrayList<Status>
+    get() {
+        val status = arrayListOf<Status>()
+        for (position in postProfileName.indices){
+            val sv = Status(
+                img = postImage[position],
+                name = postProfileName[position]
+            )
+            status.add(sv)
+        }
+        return status
+    }
 }
