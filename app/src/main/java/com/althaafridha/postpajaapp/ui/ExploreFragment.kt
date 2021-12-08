@@ -28,7 +28,7 @@ class ExploreFragment : Fragment() {
         binding.rvExplore.apply {
             setHasFixedSize(true)
 
-            layoutManager = GridLayoutManager(activity, 2)
+            layoutManager = GridLayoutManager(activity, 3)
             adapter = ExplorePostAdapter(PostData.exploreImage)
 
         }

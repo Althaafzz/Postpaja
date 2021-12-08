@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="100dp"
+    android:layout_width="80dp"
     android:layout_height="wrap_content"
     android:layout_margin="12dp"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,14 +11,14 @@
         app:layout_constraintBottom_toTopOf="@+id/txt_name"
         android:id="@+id/cv_bg_status"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:backgroundTint="@color/primaryDarkColor"
         app:cardCornerRadius="100dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_status"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             tools:src="@tools:sample/avatars"
             android:layout_gravity="center"/>
     </com.google.android.material.card.MaterialCardView>
@@ -31,6 +31,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="@tools:sample/last_names"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
         android:textColor="@color/black"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
