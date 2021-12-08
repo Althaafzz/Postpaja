@@ -13,10 +13,12 @@
         android:theme="@style/Theme.PostPajaApp">
         <activity
             android:name=".PostDuactivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/DetailPostActivity"/>
         <activity
             android:name=".PostActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/DetailPostActivity"/>
         <activity
             android:name=".SplashScreen"
             android:exported="true"

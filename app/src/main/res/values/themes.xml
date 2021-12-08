@@ -30,4 +30,10 @@
         <item name="android:statusBarColor">@color/white</item>
     </style>
 
+    <style name="DetailPostActivity" parent="Theme.PostPajaApp">
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="windowActionBar">true</item>
+    </style>
+
 </resources>

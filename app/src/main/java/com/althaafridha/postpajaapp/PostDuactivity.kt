@@ -7,7 +7,9 @@ class PostDuactivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_post_duactivity)
-        supportActionBar?.hide()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        getSupportActionBar()?.setDisplayShowTitleEnabled(false)
+
     }
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
