@@ -3,19 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/drawable/bg_splash.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/bg_status.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/bg_white.xml" value="0.2851851851851852" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.12314814814814815" />
         <entry key="app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.24074074074074073" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2916666666666667" />
         <entry key="app/src/main/res/drawable/ic_toggle.xml" value="0.24074074074074073" />
         <entry key="app/src/main/res/drawable/ic_toggle_bg.xml" value="0.24074074074074073" />
         <entry key="app/src/main/res/drawable/textlines.xml" value="0.30666666666666664" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/activity_post.xml" value="0.2703804347826087" />
         <entry key="app/src/main/res/layout/activity_post_duactivity.xml" value="0.2703804347826087" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.20199275362318841" />
         <entry key="app/src/main/res/layout/fragment_explore.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.2703804347826087" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.465592972181552" />
         <entry key="app/src/main/res/layout/row_item_explore.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/row_item_notif.xml" value="0.42650103519668736" />
-        <entry key="app/src/main/res/layout/row_item_post.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/row_item_post.xml" value="0.33116749213677865" />
+        <entry key="app/src/main/res/layout/row_item_status.xml" value="0.19293478260869565" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2953125" />
       </map>
     </option>
   </component>
